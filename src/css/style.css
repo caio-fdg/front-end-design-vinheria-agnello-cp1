@@ -125,6 +125,10 @@ section {
   font-weight: bold;
 }
 
+.imagem-contato{
+  width: 100%;
+}
+
 /* =========================
    QUEM SOMOS
 ========================= */
@@ -159,6 +163,39 @@ section {
 
 .imagem-sobre-vinhos {
   width: 100%;
+}
+
+/* =========================
+   HARMONIZAÇÃO
+========================= */
+
+.imagem-harmonizacao {
+  width: 100%;
+}
+
+.tabela-harmonizacao {
+  margin: 30px 0;
+}
+
+.tabela-harmonizacao table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.tabela-harmonizacao th {
+  background: #6b1f2b;
+  color: white;
+  padding: 15px;
+}
+
+.tabela-harmonizacao td {
+  padding: 15px;
+}
+
+.tabela-harmonizacao table,
+.tabela-harmonizacao th,
+.tabela-harmonizacao td {
+  border: 1px solid #6b1f2b;
 }
 
 
