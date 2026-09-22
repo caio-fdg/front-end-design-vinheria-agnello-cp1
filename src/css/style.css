@@ -34,6 +34,10 @@ p, h3 {
   font-style: italic;
 }
 
+section {
+  margin: 20px 0;
+}
+
 
 /* =========================
    HEADER E MENU
@@ -59,13 +63,8 @@ p, h3 {
    HOME
 ========================= */
 
-section {
-  margin: 20px 0;
-}
-
 .banner-principal {
   width: 100%;
-  border-radius: 30px;
 }
 
 
@@ -124,6 +123,34 @@ section {
   padding: 10px 30px;
   margin-top: 20px;
   font-weight: bold;
+}
+
+/* =========================
+   QUEM SOMOS
+========================= */
+
+.quem-somos {
+  margin: 30px 0;
+}
+
+.nossa-historia {
+  margin: 30px 0;
+}
+
+.nosso-atendimento {
+  margin: 30px 0;
+}
+
+.armazenamento {
+  margin: 30px 0;
+}
+
+.experiencia-agnello {
+  margin: 30px 0;
+}
+
+.imagem-quem-somos{
+  width: 100%;
 }
 
 
