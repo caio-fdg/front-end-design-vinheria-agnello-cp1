@@ -1,0 +1,210 @@
+/* =========================
+   ESTILOS GLOBAIS
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f5f0e8;
+  color: #2b1d1d;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: #6b1f2b;
+}
+
+p, h3 {
+  margin: 10px 0;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+.italico {
+  font-style: italic;
+}
+
+section {
+  margin: 20px 0;
+}
+
+
+/* =========================
+   HEADER E MENU
+========================= */
+
+#logo {
+  width: 100px;
+}
+
+.menu {
+  margin-top: 20px;
+}
+
+.menu a {
+  color: #6b1f2b;
+  margin-right: 40px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* =========================
+   HOME
+========================= */
+
+.banner-principal {
+  width: 100%;
+}
+
+
+/* =========================
+   FALE CONOSCO
+========================= */
+
+.contato-introducao {
+  margin: 30px 0;
+}
+
+.contato-introducao h2 {
+  font-size: 30px;
+}
+
+.formulario {
+  width: 600px;
+  margin: 30px auto;
+}
+
+.dados-pessoais {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.dados-pessoais legend {
+  color: #6b1f2b;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.formulario label {
+  font-weight: bold;
+}
+
+.formulario input {
+  width: 95%;
+  padding: 10px;
+  margin: 5px 0 20px 0;
+}
+
+.campo-mensagem {
+  margin-top: 20px;
+}
+
+.formulario textarea {
+  width: 95%;
+  height: 150px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.botao-enviar {
+  background: #6b1f2b;
+  color: white;
+  padding: 10px 30px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.imagem-contato{
+  width: 100%;
+}
+
+/* =========================
+   QUEM SOMOS
+========================= */
+
+.quem-somos {
+  margin: 30px 0;
+}
+
+.nossa-historia {
+  margin: 30px 0;
+}
+
+.nosso-atendimento {
+  margin: 30px 0;
+}
+
+.armazenamento {
+  margin: 30px 0;
+}
+
+.experiencia-agnello {
+  margin: 30px 0;
+}
+
+.imagem-quem-somos{
+  width: 100%;
+}
+
+/* =========================
+   SOBRE VINHOS
+========================= */
+
+.imagem-sobre-vinhos {
+  width: 100%;
+}
+
+/* =========================
+   HARMONIZAÇÃO
+========================= */
+
+.imagem-harmonizacao {
+  width: 100%;
+}
+
+.tabela-harmonizacao {
+  margin: 30px 0;
+}
+
+.tabela-harmonizacao table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.tabela-harmonizacao th {
+  background: #6b1f2b;
+  color: white;
+  padding: 15px;
+}
+
+.tabela-harmonizacao td {
+  padding: 15px;
+}
+
+.tabela-harmonizacao table,
+.tabela-harmonizacao th,
+.tabela-harmonizacao td {
+  border: 1px solid #6b1f2b;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  background: #6b1f2b;
+  color: white;
+  padding: 20px;
+}
