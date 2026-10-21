@@ -1,3 +1,5 @@
+@import url("efeitos.css");
+
 /* =========================
    ESTILOS GLOBAIS
 ========================= */
@@ -13,7 +15,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.container {
+body .container {
   width: 1200px;
   margin: 0 auto;
 }
@@ -34,37 +36,91 @@ p, h3 {
   font-style: italic;
 }
 
-section {
+main section {
   margin: 20px 0;
 }
-
-
 /* =========================
    HEADER E MENU
 ========================= */
 
+
+.menu-superior {
+  background-color: #6b1f2b;
+  box-shadow: 0px 0px 10px 2px #000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.menu-superior .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
 #logo {
   width: 100px;
+  filter: drop-shadow(0px 0px 10px #d38787);
 }
 
+.logo-titulo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+.logo-titulo .titulo{
+  color: #fff;
+}
 .menu {
-  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .menu a {
-  color: #6b1f2b;
+  /* color: #6b1f2b; */
+  color: #fff;
   margin-right: 40px;
   text-decoration: none;
   font-weight: bold;
+  position: relative;
 }
 
 
 /* =========================
    HOME
 ========================= */
-
+main{
+  padding-top: 100px;
+}
 .banner-principal {
   width: 100%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 14px 1px #000;
+}
+main h2{
+  border-top: 2px solid #6b1f2b;
+  font-size: 30px;
+  margin: 50px 0px 30px;
+  padding-top: 30px;
+}
+main h3{  
+  margin: 20px 0;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+main article{
+  margin: 30px 20px;
+}
+
+main article ul{
+  list-style-position: inside;
+}
+
+main a{
+  color: #e2465d;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 
@@ -72,8 +128,14 @@ section {
    FALE CONOSCO
 ========================= */
 
-.contato-introducao {
-  margin: 30px 0;
+main .imagem-contato{
+  border-radius: 20px;
+  box-shadow: 5px 5px 14px 1px #000;
+}
+.contato{
+  padding: 10px 40px;
+  background-color: #ccc;
+  border-radius: 20px;
 }
 
 .contato-introducao h2 {
@@ -83,6 +145,9 @@ section {
 .formulario {
   width: 600px;
   margin: 30px auto;
+  padding: 40px;
+  background-color: #ffffffdd;
+  border-radius: 20px;
 }
 
 .dados-pessoais {
@@ -105,7 +170,6 @@ section {
   padding: 10px;
   margin: 5px 0 20px 0;
 }
-
 .campo-mensagem {
   margin-top: 20px;
 }
@@ -123,6 +187,8 @@ section {
   padding: 10px 30px;
   margin-top: 20px;
   font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 .imagem-contato{
@@ -171,6 +237,8 @@ section {
 
 .imagem-harmonizacao {
   width: 100%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 14px 1px #000;
 }
 
 .tabela-harmonizacao {
@@ -198,6 +266,12 @@ section {
   border: 1px solid #6b1f2b;
 }
 
+.video-content{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 
 /* =========================
    FOOTER
@@ -207,4 +281,5 @@ footer {
   background: #6b1f2b;
   color: white;
   padding: 20px;
+  text-align: center;
 }

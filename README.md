@@ -40,7 +40,8 @@ vinheria-agnello/
     │   └── imgs/
     │
     ├── css/
-    │   └── style.css
+    │   ├── style.css
+    │   └── efeitos.css
     │
     ├── js/
     │
@@ -51,9 +52,19 @@ vinheria-agnello/
         └── fale-conosco.html
 ```
 
+## Efeitos Visuais
+
+Para o Checkpoint 02, foram adicionados efeitos CSS para tornar a navegação mais interativa e dinâmica:
+
+- Pseudo-classes como `:hover`, `:focus`, `:focus-visible`, `:nth-child()`, `:last-child` e `:has()`.
+- Pseudo-elementos `::first-letter`, `::after` e `::selection` para detalhes decorativos no título, menu e seleção de texto.
+- Transições suaves em links, imagens, campos do formulário e botão de envio.
+- Animação `@keyframes pulse` no botão de envio do formulário.
+- Transformações com `scale()`, `translateY()` e `rotate()` em elementos interativos.
+
 ## Integrante
 
-**Caio Fernando**
+**Caio Fernando de Deus Gomes - RM: 575065**
 
 ## GitHub Pages
 
